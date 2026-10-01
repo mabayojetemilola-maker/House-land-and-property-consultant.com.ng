@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | House Land & Property Consultant</title>
+  <meta name="description" content="Contact House Land & Property Consultant in Area 11, Abuja. Phone 07066951085, email hlandpcabuja@gmail.com. Make an enquiry or chat on WhatsApp." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-name">HL&amp;PC</span>
+        <span class="logo-sub">House Land &amp; Property</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="nav-cta active">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="overlay" id="overlay"></div>
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="properties.html">Properties</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+
+  <section class="page-hero" style="background: linear-gradient(135deg, rgba(15,61,38,0.9) 0%, rgba(15,61,38,0.78) 100%), url('white-side.jpg') center/cover no-repeat;">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We’re happy to answer questions and arrange viewings.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Get in Touch</span>
+        <h2>Enquire About a Property</h2>
+        <p>Call, WhatsApp, email or use the form below.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Details</h3>
+
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <h4>Office</h4>
+              <p>Shop 2b, Amma Plaza<br />Area 11, Abuja<br />Federal Capital Territory</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+2347066951085">0706 695 1085</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:hlandpcabuja@gmail.com">hlandpcabuja@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">💬</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/2347066951085" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon">📸</div>
+            <div>
+              <h4>Instagram</h4>
+              <p><a href="https://instagram.com/etido.realtor" target="_blank" rel="noopener">@etido.realtor</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-wrap">
+          <iframe
+            src="https://maps.google.com/maps?q=Amma+Plaza,+Area+11,+Abuja,+Nigeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="House Land & Property Consultant - Area 11, Abuja">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Enquiry Form -->
+      <div class="enquiry-form">
+        <h3>Send an Enquiry</h3>
+        <p>Fill in the form and it will open your email to send a message to us. Or simply call / WhatsApp.</p>
+        <form id="enquiryForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required placeholder="Full name" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" required placeholder="e.g. 0706 695 1085" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="interest">I’m interested in</label>
+            <select id="interest" name="interest">
+              <option value="Land / Plot">Land / Plot</option>
+              <option value="1 Bedroom Flat">1 Bedroom Flat</option>
+              <option value="2 Bedroom Flat">2 Bedroom Flat</option>
+              <option value="3 Bedroom Flat">3 Bedroom Flat</option>
+              <option value="House / Terrace">House / Terrace</option>
+              <option value="Real Estate Survey">Real Estate Survey</option>
+              <option value="Property Development">Property Development</option>
+              <option value="Estate Management">Estate Management</option>
+              <option value="Consultancy">Consultancy</option>
+              <option value="General Supply">General Supply</option>
+              <option value="General Enquiry">General Enquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message / Questions</label>
+            <textarea id="message" name="message" placeholder="Tell us your budget, preferred location, or any questions..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-green">Send Enquiry via Email</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-name">HL&amp;PC</span>
+            <span class="logo-sub">House Land &amp; Property</span>
+          </div>
+        </div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="properties.html">Properties</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 House Land &amp; Property Consultant. CAC BN 3380655 | Area 11, Abuja</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2347066951085" class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+  <script src="script.js"></script>
+</body>
+</html>
